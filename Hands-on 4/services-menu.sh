@@ -15,7 +15,7 @@ while true; do
         1)
             read -p "Ingrese la ruta absoluta del directorio: " dir
             if [ -d "$dir" ]; then
-                ls -la "$dir"
+                ls "$dir"
             else
                 echo "El directorio no existe."
             fi
